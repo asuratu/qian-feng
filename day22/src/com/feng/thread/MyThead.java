@@ -42,4 +42,8 @@ public class MyThead extends Thread {
             }
         }
     }
+
+    public String getThreadName() {
+        return this.getName();
+    }
 }
