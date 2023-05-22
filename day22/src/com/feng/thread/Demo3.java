@@ -43,6 +43,11 @@ public class Demo3 {
         //    2. 方便日志输出
         //    3. 方便区分线程
 
+        // q: 如何知道一个线程是否存活?
+        // a: 1. isAlive() 方法可以判断一个线程是否存活
+        //    2. 线程的状态有6种, 其中 NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED
+        //    3. 线程的状态可以通过 getState() 方法来获取
+
 
     }
 }
