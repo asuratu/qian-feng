@@ -8,7 +8,7 @@ package com.feng.thread;
  * @Version 1.0.0
  */
 public class Ticket implements Runnable {
-    private int ticketNum = 500;
+    private static int ticketNum = 500;
 
     @Override
 //    public synchronized void run() {

@@ -16,6 +16,7 @@ public class Demo1 {
         myThead1.start();
 //        myThead2.start();
 
+
         for (int i = 1; i <= 100; i++) {
             // 每隔一秒钟，打印一个数字, 一直打印到100
             System.out.println("main线程打印数字：" + i);
