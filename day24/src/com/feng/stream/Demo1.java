@@ -12,6 +12,7 @@ import java.util.Collections;
  */
 public class Demo1 {
     public static void main(String[] args) {
+        // 需求:
         // 将 list 集合中, 包含 "张" 的元素, 存储到一个新集合中
 
         // 1. 创建一个 list 集合
