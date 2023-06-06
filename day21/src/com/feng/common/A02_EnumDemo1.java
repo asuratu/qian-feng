@@ -84,14 +84,16 @@ public class A02_EnumDemo1 {
             System.out.println(enumConstant);
         }
 
+        System.out.println("--------------");
+
 
         // switch (表达式),  其中表达式的数据类型只能是: byte, short, int, char, String, 枚举, 其他类型不行 !!!!
 
-//        switch (spring) {
-//            case SPRING -> System.out.println("春天");
-//            case SUMMER -> System.out.println("夏天");
-//            case AUTUMN -> System.out.println("秋天");
-//            case WINTER -> System.out.println("冬天");
-//        }
+        switch (spring) {
+            case SPRING -> System.out.println("春天");
+            case SUMMER -> System.out.println("夏天");
+            case AUTUMN -> System.out.println("秋天");
+            case WINTER -> System.out.println("冬天");
+        }
     }
 }

@@ -25,8 +25,8 @@ public class Insert {
             String sql = "select * from user where passport = ? and password = ?";
             java.sql.PreparedStatement preparedStatement = connection.prepareStatement(sql);
             // 4.给 ? 赋值
-            preparedStatement.setString(1, "admin");
-            preparedStatement.setString(2, "123");
+            preparedStatement.setString(1, "admin1");
+            preparedStatement.setString(2, "111");
 
             // 执行 sql
             java.sql.ResultSet resultSet = preparedStatement.executeQuery();
