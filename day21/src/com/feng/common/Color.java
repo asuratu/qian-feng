@@ -35,6 +35,10 @@ public enum Color {
         return null;
     }
 
+    public int getCode() {
+        return code;
+    }
+
     // 获取枚举的 LinkedHashMap
     public static LinkedHashMap<Integer, String> getColorsMap() {
         LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
@@ -45,13 +49,8 @@ public enum Color {
         return map;
     }
 
-    public int getCode() {
-        return code;
-    }
-
     public String getName() {
         return name;
     }
-
 
 }

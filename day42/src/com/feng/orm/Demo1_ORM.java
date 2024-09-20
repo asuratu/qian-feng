@@ -22,7 +22,7 @@ public class Demo1_ORM {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         // 2. 通过驱动管理对象来获得连接对象
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gf-demo-user?useSSL=false&serverTimezone=UTC", "root", "");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/clterp?useSSL=false&serverTimezone=UTC", "root", "tu4211241992");
 
         // 3. 获得执行 sql 的对象
         java.sql.Statement statement = connection.createStatement();

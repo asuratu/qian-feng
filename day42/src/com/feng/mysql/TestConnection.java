@@ -15,7 +15,7 @@ public class TestConnection {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gf-demo-user?useSSL=false&serverTimezone=UTC", "root", "");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/clterp?useSSL=false&serverTimezone=UTC", "root", "tu4211241992");
 
         System.out.println(connection); // com.mysql.cj.jdbc.ConnectionImpl@23faf8f2 代表连接成功
 

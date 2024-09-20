@@ -12,13 +12,19 @@ import java.util.LinkedHashMap;
 public class A02_EnumDemo2 {
     public static void main(String[] args) {
         int code = Color.RED.getCode();
-        System.out.println(code); // 1
+        System.out.println(code);
         String name = Color.RED.getName();
-        System.out.println(name); // 红色
+        System.out.println(name);
 
         System.out.println("--------------");
-        
+
         LinkedHashMap<Integer, String> colorsMap = Color.getColorsMap();
-        System.out.println(colorsMap); // {1=红色, 2=蓝色, 3=黄色, 4=绿色}
+        // {1=红色, 2=蓝色, 3=黄色, 4=绿色}
+        System.out.println(colorsMap);
+
+        System.out.println("--------------");
+
+        System.out.println(Color.contains(1));
+        System.out.println(Color.contains(10));
     }
 }

@@ -14,6 +14,8 @@ import java.sql.SQLException;
 public class Demo1_insert {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
+        // JDBC 是一套规范, 本身不提供实现, 需要由数据库厂商提供实现
+
         // JDBC编程标准步骤 (八股文)
         // 1. 注册驱动
         // 1.1 将 sql 语句的运行环境加载到 JVM 中
@@ -28,7 +30,8 @@ public class Demo1_insert {
 
         // 2. 通过驱动管理对象来获得连接对象
         // 2.1 定义数据库的 url, 用户名, 密码
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gf-demo-user?useSSL=false&serverTimezone=UTC", "root", "");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/clterp?useSSL=false&serverTimezone=UTC", "root", "tu4211241992");
+        
 
         // 3. 获得执行 sql 的对象
         // 3.1 通过连接对象获得执行 sql 的对象

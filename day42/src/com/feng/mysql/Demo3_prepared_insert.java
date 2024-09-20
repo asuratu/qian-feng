@@ -19,7 +19,7 @@ public class Demo3_prepared_insert {
 
         // 通过驱动管理对象来获得连接对象
         // 定义数据库的 url, 用户名, 密码
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gf-demo-user?useSSL=false&serverTimezone=UTC", "root", "");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/clterp?useSSL=false&serverTimezone=UTC", "root", "tu4211241992");
 
         // 获得执行 sql 的对象
         java.sql.Statement statement = connection.createStatement();
